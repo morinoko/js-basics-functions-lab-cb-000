@@ -7,7 +7,7 @@ function distanceTravelledInBlocks(startingBlock, endingBlock) {
 
 function distanceFromHqInBlocks(blockAtLocation) {
   const blockAtHq = 42;
-  return distanceFromHqInBlocks(blockAtHq, blockAtLocation);
+  return distanceTravelledInBlocks(blockAtHq, blockAtLocation);
 }
 
 function distanceFromHqInFeet(blockAtLocation) {
