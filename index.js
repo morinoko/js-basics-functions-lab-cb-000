@@ -5,7 +5,8 @@ function distanceFromHqInBlocks(streetBlockAtLocation) {
 }
 
 function distanceFromHqInFeet(streetBlockAtLocation) {
-
+  const blockLengthInFeet = 264;
+  return distanceFromHqInBlocks(streetBlockAtLocation) * blockLengthInFeet;
 }
 
 function distanceTravelledInFeet() {
