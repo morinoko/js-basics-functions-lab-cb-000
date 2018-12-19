@@ -15,7 +15,7 @@ function distanceFromHqInFeet(blockAtLocation) {
 }
 
 function distanceTravelledInFeet(startingBlock, endingBlock) {
-  distanceInBlocks = 
+  
 }
 
 function calculatesFarePrice() {
