@@ -18,6 +18,6 @@ function distanceTravelledInFeet(startingBlock, endingBlock) {
   return distanceTravelledInBlocks(startingBlock, endingBlock) * blockLengthInFeet;
 }
 
-function calculatesFarePrice() {
-
+function calculatesFarePrice(startingBlock, endingBlock) {
+  
 }
