@@ -1,15 +1,15 @@
 // Code your solution in this file!
-function distanceFromHqInBlocks(streetBlockAtLocation) {
+function distanceFromHqInBlocks(blockAtLocation) {
   const blockAtHq = 42;
-  return Math.abs(blockAtHq - streetBlockAtLocation);
+  return Math.abs(blockAtHq - blockAtLocation);
 }
 
-function distanceFromHqInFeet(streetBlockAtLocation) {
+function distanceFromHqInFeet(blockAtLocation) {
   const blockLengthInFeet = 264;
-  return distanceFromHqInBlocks(streetBlockAtLocation) * blockLengthInFeet;
+  return distanceFromHqInBlocks(blockAtLocation) * blockLengthInFeet;
 }
 
-function distanceTravelledInFeet() {
+function distanceTravelledInFeet(startingBlock) {
 
 }
 
