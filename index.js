@@ -1,9 +1,13 @@
 // Code your solution in this file!
 const blockLengthInFeet = 264;
 
+function distanceTravelledInBlocks(startingBlock, endingBlock) {
+  return Math.abs(startingBlock - endingBlock);
+}
+
 function distanceFromHqInBlocks(blockAtLocation) {
   const blockAtHq = 42;
-  return Math.abs(blockAtHq - blockAtLocation);
+  return distanceFromHqInBlocks(blockAtHq, blockAtLocation);
 }
 
 function distanceFromHqInFeet(blockAtLocation) {
@@ -11,7 +15,7 @@ function distanceFromHqInFeet(blockAtLocation) {
 }
 
 function distanceTravelledInFeet(startingBlock, endingBlock) {
-  
+  distanceInBlocks = 
 }
 
 function calculatesFarePrice() {
